@@ -72,7 +72,7 @@ app.get("/", (req, res) => {
   res.send("server is running");
 });
 
-app.get("/heroku", (req, res) => {
+app.get("/hero", (req, res) => {
   res.send("server is running on heroku");
 });
 
